@@ -7,40 +7,29 @@
  *
  * For the full copyright and license information, please view the file license.md that was distributed with this source code.
  */
-
 namespace Kdyby\Events;
-
-
 
 /**
  * @author Filip Procházka <filip@prochazka.su>
  */
 class EventArgsList extends EventArgs
 {
-
-	/**
-	 * @var array
-	 */
-	private $args;
-
-
-
-	/**
-	 * @param array $args
-	 */
-	public function __construct(array $args)
-	{
-		$this->args = $args;
-	}
-
-
-
-	/**
-	 * @return array
-	 */
-	public function getArgs()
-	{
-		return $this->args;
-	}
-
+    /**
+     * @var array
+     */
+    private $args;
+    /**
+     * @param array $args
+     */
+    public function __construct(array $args)
+    {
+        $this->args = $args;
+    }
+    /**
+     * @return array
+     */
+    public function getArgs()
+    {
+        return $this->args;
+    }
 }

@@ -7,13 +7,9 @@
  *
  * For the full copyright and license information, please view the file license.md that was distributed with this source code.
  */
-
 namespace Kdyby\Events;
 
 use Doctrine;
-
-
-
 /**
  * An EventSubscriber knows himself what events he is interested in.
  * If an EventSubscriber is added to an EventManager, the manager invokes
@@ -24,5 +20,4 @@ use Doctrine;
  */
 interface Subscriber extends Doctrine\Common\EventSubscriber
 {
-
 }

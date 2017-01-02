@@ -7,10 +7,7 @@
  *
  * For the full copyright and license information, please view the file license.md that was distributed with this source code.
  */
-
 namespace Kdyby\Events;
-
-
 
 /**
  * Optional way to handle exceptions which happen in events
@@ -19,13 +16,11 @@ namespace Kdyby\Events;
  */
 interface IExceptionHandler
 {
-
-	/**
-	 * Invoked when uncaught exception occurs within event handler
-	 *
-	 * @param \Exception $exception
-	 * @return void
-	 */
-	function handleException(\Exception $exception);
-
+    /**
+     * Invoked when uncaught exception occurs within event handler
+     *
+     * @param \Exception $exception
+     * @return void
+     */
+    function handleException(\Exception $exception);
 }

@@ -7,17 +7,12 @@
  *
  * For the full copyright and license information, please view the file license.md that was distributed with this source code.
  */
-
 namespace Kdyby\Events;
 
 use Doctrine;
-
-
-
 /**
  * @author Filip Procházka <filip@prochazka.su>
  */
 abstract class EventArgs extends Doctrine\Common\EventArgs
 {
-
 }
